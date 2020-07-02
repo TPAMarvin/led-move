@@ -8,7 +8,7 @@ basic.forever(function () {
         position = position + 1
     } else {
         strip.clear()
-        strip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
+        strip.setPixelColor(0, neopixel.colors(NeoPixelColors.Green))
         position = 0
     }
     strip.show()
